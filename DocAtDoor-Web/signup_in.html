@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+    DocAtDoor/signup-in 
+  </title>
+</head>
+
+<script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAslREUo5C0V8Wv_L50HYg_gSLhv8T7j_U",
+    authDomain: "docatdoor-e59db.firebaseapp.com",
+    databaseURL: "https://docatdoor-e59db.firebaseio.com",
+    storageBucket: "docatdoor-e59db.appspot.com",
+    messagingSenderId: "626765141512"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="https://cdn.firebase.com/libs/firebaseui/1.0.0/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/1.0.0/firebaseui.css" />
+    <script type="text/javascript">
+      // FirebaseUI config.
+      var uiConfig = {
+        signInSuccessUrl: 'enter_details.html',
+        signInOptions: [
+          // Leave the lines as is for the providers you want to offer your users.
+      /*    firebase.auth.GoogleAuthProvider.PROVIDER_ID,*/
+          firebase.auth.EmailAuthProvider.PROVIDER_ID
+        ],
+        // Terms of service url.
+        tosUrl: '<your-tos-url>'
+      };
+
+      // Initialize the FirebaseUI Widget using Firebase.
+      var ui = new firebaseui.auth.AuthUI(firebase.auth());
+      // The start method will wait until the DOM is loaded.
+      ui.start('#firebaseui-auth-container', uiConfig);
+    </script>
+    <div></div>
+    <script src="index.js"></script>
+<!--<script src="details.js"></script>-->
+<body style="background: linear-gradient(to right,#AEEEEE, #B0E2FF); margin: 40px;">
+	<!--<h1 align="center" style="color:red;">firebase auth quickstart</h1>	-->
+	<div id="firebaseui-auth-container"></div>
+</body>
+</html>

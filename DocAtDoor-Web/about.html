@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DocAtDoor/about</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="DocAtDoor : Know abput us.We provide so much facilities you can't think of." />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- toggle menu links -->
+<link href="css/component.css" rel="stylesheet" type="text/css"  />
+<!-- //menu links -->
+<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
+<!-- effect9 links -->
+<link href="css/ihover.css" rel="stylesheet" media="all">
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+	<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smoth-scrolling -->
+</head>
+<!-- slide-toggle-menu -->
+<body class="cbp-spmenu-push">
+       <!--top-header-->
+		<!--bottom-->
+		  <section class="button">
+					<button id="showLeftPush"><img src="images/menu.png" alt=""></button>
+		   </section>
+			<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+				<h3>Menu</h3>
+						<a href="index.html">HOME</a>
+						<a href="about.html" class="active">ABOUT</a>
+						<!--<a href="blog.html">BLOG</a>
+						<a href="shortcodes.html">SHORT CODES</a>-->
+						<a href="gallery.html">GALLERY</a>
+						<a href="contact.html">CONTACT</a>
+		    </nav>
+		  
+		<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
+		<script src="js/classie.js"></script>
+		<script>
+			var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+				showLeftPush = document.getElementById( 'showLeftPush' ),
+				showRightPush = document.getElementById( 'showRightPush' ),
+				body = document.body;
+
+			showLeftPush.onclick = function() {
+				classie.toggle( this, 'active' );
+				classie.toggle( body, 'cbp-spmenu-push-toright' );
+				classie.toggle( menuLeft, 'cbp-spmenu-open' );
+				disableOther( 'showLeftPush' );
+			};
+
+			function disableOther( button ) {
+				if( button !== 'showLeftPush' ) {
+					classie.toggle( showLeftPush, 'disabled' );
+				}
+				if( button !== 'showRightPush' ) {
+					classie.toggle( showRightPush, 'disabled' );
+				}
+			}
+		</script>
+<!-- banner -->
+<div class="banner page-head">
+	<div class="logo">
+		<h1><a href="index.html">DocAtDoor</a></h1>
+	</div>
+	<div class="search">		
+		<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><i class="glyphicon glyphicon-search"> </i> </a>
+	</div>
+	<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+		<div id="small-dialog" class="mfp-hide">
+			<div class="search-top">
+				<div class="login">
+					<input type="submit" value="">
+					<input type="text" value="Type something..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">		
+				</div>			
+			</div>
+			<script>
+						$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});
+																						
+						});
+			</script>				
+		</div>
+	
+</div>
+<!-- //banner -->
+<!--about-starts--> 
+<div class="about">
+	<div class="container">
+		<h3 class="tittle">ABOUT</h3>
+		<div class="col-md-5 about-grid-left text-center">
+			<img src="images/6.jpg" alt=""/>
+		</div>
+		<div class="col-md-7 about-grid">
+							<h4 style="font-size: 23px ">What is DocAtDoor...??</h4>
+							<br />
+							<ul style="font-family: Arial; font-size: 20px" >
+								<li>There is nothing more important thing than the human life and sometimes it happens at a time of any healthcare emergency (accident, heart attack...etc...) that mode of treatment is not available at that instance.</li>
+								<li>Due to which many problems may arise like non availability of hospital and if hospital is available then there may be a case of non-availability of doctor and this whole scenario can cost the loss of human life. </li>
+								<li>So to overcome this kind of emergency, we provide various services.</li>
+							</ul>
+
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!--about-bottom-->
+<div class="about-bottom">
+		<div class="container">
+			<div class="about-bottom-grids">
+				<div class="col-md-7 about-bottom-grid-left">
+			
+				</div>
+			<h3 class="tittle" style= "color: #ADD8E6; font-family:Algerian;"> SERVICES WE PROVIDE : </h3>
+			<div class="col-md-3 welcome-grid text-center">
+				<div class="ih-item circle effect9 left_to_right"><a href="#">
+					<div class="img"><img src="images/track.png" alt="" /></div>
+					<div class="info">
+					  <h4>Track Location of Hospital and Patient</h4>
+					  <!--<p>Stay Safe</p>-->
+					</div></a>
+				</div>
+			</div>
+					<div class="col-md-3 welcome-grid text-center">
+				<div class="ih-item circle effect9 left_to_right"><a href="#">
+					<div class="img"><img src="images/findingdoc.jpg" alt="" /></div>
+					<div class="info">
+					  <h4>Check Availability<br> of Doctor</h4>
+					<!-- <p>Stay Healthy</p>-->
+					</div></a>
+				</div>
+			</div>
+			<div class="col-md-3 welcome-grid text-center">
+				<div class="ih-item circle effect9 left_to_right"><a href="#">
+					<div class="img"><img src="images/ambulance.jpg" alt="" /></div>
+					<div class="info">
+					  <h4>Instant <br>Ambulance</h4>
+					  <!--<p>Be Happy</p>-->
+					</div></a>
+				</div>
+			</div>
+			<div class="col-md-3 welcome-grid text-center">
+				<div class="ih-item circle effect9 left_to_right"><a href="#">
+					<div class="img"><img src="images/notification.png" alt="" /></div>
+					<div class="info">
+					  <h4>Real-Time Notifications</h4>
+					  <!--<p>Save A Life</p>-->
+					</div></a>
+				</div>
+			</div>
+			</div>
+			<div class="clearfix"></div>
+	</div>
+</div>
+	</div>
+
+<div class="copy-right">
+	<div class="container">
+		<p> &copy; 2017 DocAtDoor. All Rights Reserved | Terms and Conditions | Privacy Policy</p>
+	</div>
+</div>
+<!-- //copy-right -->
+<!-- Bootstrap core JavaScript-->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<!-- js -->
+		 <script src="js/bootstrap.js"></script>
+	<!-- js -->
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+</body>
+</html>

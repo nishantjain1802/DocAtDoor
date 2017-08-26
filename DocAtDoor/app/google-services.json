@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "626765141512",
+    "firebase_url": "https://docatdoor-e59db.firebaseio.com",
+    "project_id": "docatdoor-e59db",
+    "storage_bucket": "docatdoor-e59db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626765141512:android:37144e67cb112418",
+        "android_client_info": {
+          "package_name": "com.docatdoor.docatdoor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626765141512-mip9urg94buffnmdfkksu6bh8rcmpoiq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.docatdoor.docatdoor",
+            "certificate_hash": "da1968e87885ca6131e497c88682d2d2b4490471"
+          }
+        },
+        {
+          "client_id": "626765141512-aod71ro6g8k83en0gm98ge1qbmi8dl77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVwKHAaDcXOY8JO6PFGZA84kQ60QT5wLs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626765141512-aod71ro6g8k83en0gm98ge1qbmi8dl77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

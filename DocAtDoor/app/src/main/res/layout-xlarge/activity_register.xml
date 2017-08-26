@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:background="#edfdfd" android:padding="30dp" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<ScrollView android:layout_height="match_parent" android:layout_width="match_parent" android:layout_alignParentStart="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+
+
+    -<LinearLayout android:background="#f3fdfd" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentStart="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp" android:paddingTop="15dp" android:id="@+id/textviewPatientInfo" android:text="Patient Informaion" android:textAlignment="center" android:textSize="28sp"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_alignParentStart="true" android:layout_alignParentLeft="true" android:id="@+id/firstNameEditText" android:hint="First Name" android:layout_marginTop="20dp"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_alignParentStart="true" android:layout_alignParentLeft="true" android:id="@+id/lastNameEditText" android:hint="Last Name" android:layout_marginTop="10dp"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_alignParentStart="true" android:layout_alignParentLeft="true" android:id="@+id/fatherNameEditText" android:hint="Father's Name" android:layout_marginTop="10dp"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_alignParentStart="true" android:layout_alignParentLeft="true" android:id="@+id/bloodgroupEditText" android:hint="Blood Group" android:layout_marginTop="10dp"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_alignParentStart="true" android:layout_alignParentLeft="true" android:id="@+id/allergyEditText" android:hint="Allergy (if any)" android:layout_marginTop="10dp"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/birthDateeditText" android:hint="D.O.B." android:layout_marginTop="10dp" android:inputType="date" android:ems="10"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_alignParentStart="true" android:layout_alignParentLeft="true" android:id="@+id/mobileNumberEditText" android:hint="Mobile Number" android:layout_marginTop="10dp"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/addresseditText" android:hint="Address" android:layout_marginTop="10dp" android:inputType="textMultiLine" android:ems="10"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_alignParentStart="true" android:layout_alignParentLeft="true" android:id="@+id/weightEditText" android:hint="Weight" android:layout_marginTop="10dp"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_alignParentStart="true" android:layout_alignParentLeft="true" android:id="@+id/heightEditText" android:hint="Height" android:layout_marginTop="10dp"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_alignParentStart="true" android:layout_alignParentLeft="true" android:id="@+id/emergencymobileNumberEditText" android:hint="Emergency Number" android:layout_marginTop="10dp"/>
+
+    <Button android:background="#67c7ee" android:layout_height="wrap_content" android:layout_width="220dp" android:text="SUBMIT" android:id="@+id/submitButton" android:layout_margin="50dp" android:layout_below="@+id/emergencymobileNumberEditText" android:textSize="20sp"/>
+
+</LinearLayout>
+
+</ScrollView>
+
+</RelativeLayout>

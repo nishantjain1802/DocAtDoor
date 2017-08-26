@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_finding_doc"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Finding Doc" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/nav_records"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="previous records" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_rateus"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Rate this app" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Help and Feedback" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>
